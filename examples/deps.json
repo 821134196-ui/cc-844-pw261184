@@ -1,0 +1,19 @@
+{
+  "schema": "offlinepack/deps@1",
+  "name": "payments deps",
+  "artifacts": [
+    {
+      "digest": "sha256:932e91ca7e157debc9b98cc4ab8d1327a62719b4d621fd5da510d9a994c35b5d",
+      "size": 23,
+      "path": "artifacts/ca.rpm"
+    }
+  ],
+  "deps": {
+    "sha256:fb029fe635c6a8bc1817bad2f2d12eadceb22548cd6110d8b6b5e443eb84db8f": [
+      {
+        "digest": "sha256:932e91ca7e157debc9b98cc4ab8d1327a62719b4d621fd5da510d9a994c35b5d",
+        "path": "artifacts/ca.rpm"
+      }
+    ]
+  }
+}

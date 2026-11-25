@@ -1,0 +1,30 @@
+{
+  "config": {
+    "digest": "sha256:78b7adce4d0a6a5b636446caf70238e099cdf33aa030541adbfd54625a030f58",
+    "mediaType": "application/vnd.oci.image.config.v1+json",
+    "path": "../layers/config.json",
+    "size": 45
+  },
+  "layers": [
+    {
+      "digest": "sha256:01270c40cb86a3cf06a13e78de831d174874b6ce8d301e3bbfe075553daf9465",
+      "mediaType": "application/vnd.oci.image.layer.v1.tar+gzip",
+      "path": "../layers/a.tar.gz",
+      "size": 150
+    },
+    {
+      "digest": "sha256:c489ca9969dc7d1414d9f82fd42629c7a988aa308970a288f603100eff9144e0",
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "path": "../nested/base-amd64.json",
+      "size": 556
+    },
+    {
+      "digest": "sha256:fb029fe635c6a8bc1817bad2f2d12eadceb22548cd6110d8b6b5e443eb84db8f",
+      "mediaType": "application/vnd.oci.image.layer.v1.tar+gzip",
+      "path": "../layers/b.tar.gz",
+      "size": 114
+    }
+  ],
+  "mediaType": "application/vnd.oci.image.manifest.v1+json",
+  "schemaVersion": 2
+}

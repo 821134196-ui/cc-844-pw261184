@@ -1,0 +1,18 @@
+{
+  "config": {
+    "digest": "sha256:be9f05e70273c1b6797fae754c77404aba07cc3205b7f1dd9bae6df77f54f95b",
+    "mediaType": "application/vnd.oci.image.config.v1+json",
+    "path": "../nested/base-config.json",
+    "size": 31
+  },
+  "layers": [
+    {
+      "digest": "sha256:0ef73936349251b87b29f827eea46f0f4e2e6b43f24b36821f98c3e49890ad09",
+      "mediaType": "application/vnd.oci.image.layer.v1.tar+gzip",
+      "path": "../layers/base.tar.gz",
+      "size": 109
+    }
+  ],
+  "mediaType": "application/vnd.oci.image.manifest.v1+json",
+  "schemaVersion": 2
+}

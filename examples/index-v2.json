@@ -1,0 +1,21 @@
+{
+  "schema": "offlinepack/index@1",
+  "name": "payments",
+  "images": [
+    {
+      "name": "payments/app",
+      "manifests": [
+        {
+          "digest": "sha256:3a8699455596ea3c4fe9692f0ddca3e898bf0b5d345925c93235f9797ae526ce",
+          "size": 773,
+          "mediaType": "application/vnd.oci.image.manifest.v1+json",
+          "path": "manifests/app2-amd64.json",
+          "platform": {
+            "os": "linux",
+            "architecture": "amd64"
+          }
+        }
+      ]
+    }
+  ]
+}
